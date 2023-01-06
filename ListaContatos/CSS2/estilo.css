@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+body {
+
+/*     background-image: url("../IMAGENS/fundo2.jpg");
+ */    
+ 
+ background-color: rgb(71, 71, 71);
+ color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+ input {
+
+    display: block;
+     height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(70, 52, 52);
+    font-size: 16pt;
+    padding: 10px; 
+    background-color:rgb(255, 255, 255);
+    color: rgb(19, 7, 7);
+    
+}
+
+
+
+fieldset#corpo-form {
+    width: 450px;
+    margin: 130px auto 0px auto;
+    border-radius: 30px;
+    border: 1px solid rgb(45, 49, 45);
+    background-color: rgba(22, 22, 22, 0.664);
+
+}
+
+fieldset#corpo-form h1 {
+    text-align: center;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+
+}
+
+a:hover {
+
+    text-decoration: underline;
+
+
+}
+
+input[type=submit]{
+
+    background-color: rgb(181, 226, 209);
+    border: none;
+    cursor: pointer;
+   width: 420px;    
+
+}
+
+    div#msg-sucesso{
+
+        width: 400px;
+        margin: 130px auto;
+        padding: 10px;
+        background-color: rgba(50,205,50,.3);
+        border: 1px solid rgb(34, 139, 34);
+
+
+    }
+
+    .msg-erro{
+
+        width: 400px;
+        margin: 130px auto;
+        padding: 10px;
+        background-color: rgba(216, 47, 31, 0.459);
+        border: 1px solid rgb(68, 36, 36);
+
+    }
+
+   
